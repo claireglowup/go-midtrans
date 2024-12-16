@@ -13,7 +13,7 @@ import (
 var s snap.Client
 
 func initializeSnapClient() {
-	s.New("SB-Mid-server-jffebVOicyta3cHnr9FU_uge", midtrans.Sandbox)
+	s.New("ur midtrans key server", midtrans.Sandbox)
 }
 
 func createTransaction() string {
